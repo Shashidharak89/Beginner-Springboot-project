@@ -21,11 +21,6 @@ public class Hello {
         return "Hello shashi";
     }
 
-//    @GetMapping("/display")
-//    public String display(){
-//        return "index.html";
-//    }
-
 
     @GetMapping("/getnayi")
     public Nayi getnode(){
